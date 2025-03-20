@@ -1,4 +1,4 @@
-apiversion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mydeploy
@@ -11,8 +11,8 @@ spec:
     metadata:
       labels:
         app: swiggy
-    spec: 
-      container:
+    spec:
+      containers:
         - name: cont1
           image: shaikmustafa/dm
           ports:
